@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Baddies Slop</title>
+	
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="mobile-web-app-capable" content="yes">
+	
+	
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	
+	
+	<script type="text/javascript" src="./Baddies Slop.js"></script>
+	
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+	</script>
+	
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+		@font-face {
+			font-family: 'EASTER CHALK';
+			src: url('assets/fonts/Chalk.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/Chalk.woff') format('woff'),
+			url('assets/fonts/Chalk.ttf') format('truetype'),
+			url('assets/fonts/Chalk.svg#EASTER%20CHALK') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Gothic Joker';
+			src: url('assets/fonts/GothicJoker.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/GothicJoker.woff') format('woff'),
+			url('assets/fonts/GothicJoker.ttf') format('truetype'),
+			url('assets/fonts/GothicJoker.svg#Gothic%20Joker') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'MIKE Regular';
+			src: url('assets/fonts/mike.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/mike.woff') format('woff'),
+			url('assets/fonts/mike.ttf') format('truetype'),
+			url('assets/fonts/mike.svg#MIKE%20Regular') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Perfect Futures Italic';
+			src: url('assets/fonts/perfect.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/perfect.woff') format('woff'),
+			url('assets/fonts/perfect.ttf') format('truetype'),
+			url('assets/fonts/perfect.svg#Perfect%20Futures%20Italic') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Perfect Futures';
+			src: url('assets/fonts/perfectNormal.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/perfectNormal.woff') format('woff'),
+			url('assets/fonts/perfectNormal.ttf') format('truetype'),
+			url('assets/fonts/perfectNormal.svg#Perfect%20Futures') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Pixel Arial 11 Bold Latin';
+			src: url('assets/fonts/pixel-latin.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/pixel-latin.woff') format('woff'),
+			url('assets/fonts/pixel-latin.ttf') format('truetype'),
+			url('assets/fonts/pixel-latin.svg#Pixel%20Arial%2011%20Bold%20Latin') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Pixel Arial 11 Bold';
+			src: url('assets/fonts/pixel.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/pixel.woff') format('woff'),
+			url('assets/fonts/pixel.otf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'VCR OSD Mono';
+			src: url('assets/fonts/vcr.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/vcr.woff') format('woff'),
+			url('assets/fonts/vcr.ttf') format('truetype'),
+			url('assets/fonts/vcr.svg#VCR%20OSD%20Mono') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Secret Typewriter';
+			src: url('assets/fonts/veteran typewriter.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/veteran typewriter.woff') format('woff'),
+			url('assets/fonts/veteran typewriter.ttf') format('truetype'),
+			url('assets/fonts/veteran typewriter.svg#Secret%20Typewriter') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Zondas';
+			src: url('assets/fonts/Zondas.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/Zondas.woff') format('woff'),
+			url('assets/fonts/Zondas.ttf') format('truetype'),
+			url('assets/fonts/Zondas.svg#Zondas') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Nokia Cellphone FC Small';
+			src: url('flixel/fonts/nokiafc22.eot?#iefix') format('embedded-opentype'),
+			url('flixel/fonts/nokiafc22.woff') format('woff'),
+			url('flixel/fonts/nokiafc22.ttf') format('truetype'),
+			url('flixel/fonts/nokiafc22.svg#Nokia%20Cellphone%20FC%20Small') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Monsterrat';
+			src: url('flixel/fonts/monsterrat.eot?#iefix') format('embedded-opentype'),
+			url('flixel/fonts/monsterrat.woff') format('woff'),
+			url('flixel/fonts/monsterrat.ttf') format('truetype'),
+			url('flixel/fonts/monsterrat.svg#Monsterrat') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+	</style>
+	
+</head>
+<body>
+	
+	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
+	
+	<div id="openfl-content"></div>
+	
+	<script type="text/javascript">
+		lime.embed ("Baddies Slop", "openfl-content", 1920, 720, { parameters: {} });
+	</script>
+	
+</body>
+</html>

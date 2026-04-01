@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="laughing.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="laughingLoop0000" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0001" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0002" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0003" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0004" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0005" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0006" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0007" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0008" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0009" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0010" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0011" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0012" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0013" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0014" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0015" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0016" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0017" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0018" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0019" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0020" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0021" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0022" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0023" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0024" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0025" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0026" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0027" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0028" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0029" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0030" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0031" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0032" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0033" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0034" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0035" x="1435" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0036" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0037" x="960" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0038" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0039" x="485" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0040" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0041" x="10" y="10" width="465" height="465"/>
+	<SubTexture name="laughingLoop0042" x="10" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0043" x="10" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0044" x="485" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0045" x="485" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0046" x="960" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0047" x="1435" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0048" x="1435" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0049" x="1435" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0050" x="1435" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0051" x="1435" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0052" x="1435" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0053" x="960" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0054" x="485" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0055" x="485" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0056" x="10" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0057" x="10" y="485" width="465" height="465"/>
+	<SubTexture name="laughingLoop0058" x="10" y="960" width="465" height="465"/>
+	<SubTexture name="laughingLoop0059" x="10" y="960" width="465" height="465"/>
+	<SubTexture name="laughingLoop0060" x="10" y="960" width="465" height="465"/>
+</TextureAtlas>
